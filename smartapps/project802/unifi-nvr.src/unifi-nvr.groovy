@@ -50,7 +50,7 @@ def updated() {
  */
 def nvr_initialize()
 {
-    state.nvrName = "Unknown"
+    state.nvrName = "VTP.IN"
     state.loginCookie = "";
     state.apiKey = "${settings.apiKey}"
     state.nvrTarget = "${settings.nvrAddress}:${settings.nvrPort}"
