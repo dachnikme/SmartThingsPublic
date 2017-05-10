@@ -21,7 +21,7 @@ definition(
     namespace: "project802",
     author: "Chris Vincent",
     description: "UniFi NVR SmartApp",
-    category: "Safety & Security",
+    category: "My Apps",
     iconUrl: "http://project802.net/smartthings/smartapp-icons/ubiquiti_nvr.png",
     iconX2Url: "http://project802.net/smartthings/smartapp-icons/ubiquiti_nvr_2x.png",
     iconX3Url: "http://project802.net/smartthings/smartapp-icons/ubiquiti_nvr_3x.png")
