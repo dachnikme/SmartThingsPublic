@@ -26,7 +26,7 @@ definition(
     iconX2Url: "http://project802.net/smartthings/smartapp-icons/ubiquiti_nvr_2x.png",
     iconX3Url: "http://project802.net/smartthings/smartapp-icons/ubiquiti_nvr_3x.png")
 preferences {
-    input name: "nvrAddress", type: "text", title: "NVR Address", description: "NVR IP address", required: true, displayDuringSetup: true, defaultValue: "vtp.imi.vc"
+    input name: "nvrAddress", type: "text", title: "NVR Address", description: "NVR IP address", required: true, displayDuringSetup: true, defaultValue: "10.10.20.10"
     input name: "nvrPort", type: "number", title: "NVR Port", description: "NVR HTTP port", required: true, displayDuringSetup: true, defaultValue: 7080
     input name: "username", type: "text", title: "Username", description: "Username", required: true, displayDuringSetup: true, defaultValue: "vtp.in@dachnik.me"
     input name: "password", type: "text", title: "Password", description: "Password", required: true, displayDuringSetup: true, defaultValue: "130178231280"
